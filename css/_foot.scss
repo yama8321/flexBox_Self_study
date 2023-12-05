@@ -1,0 +1,31 @@
+footer{
+    background-image: linear-gradient(to left top, #cd3796, #d644a0, #e04fab, #e95bb5, #f266c0, #f373c7, #f37fce, #f48bd5, #ec9ad8, #e4a7da, #deb4da, #d8bfd8);
+    color: white;
+}
+
+.foot{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.foot ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-right: 3px solid #ffffff;
+    padding-right: 3rem;
+}
+
+.foot p{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+footer p{
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,58 @@
+  header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/background001.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .toptext{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .toptext .TOPtext01{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+  }
+
+  .toptext .TOPtext01 h2:nth-child(1){
+font-size: 2.5rem;
+  }
+
+  .toptext .TOPtext01 h2:nth-child(2){
+    font-size: 3rem;
+    color: rgb(230, 102, 102);
+  }
+
+  .toptext p{
+    width: 500px;
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 2rem;
+  }
+
+  .toptext .sen{
+    width: 5rem; 
+    height: 3px;
+    background-color: #ffffff;
+    margin: 0  auto;
+  }

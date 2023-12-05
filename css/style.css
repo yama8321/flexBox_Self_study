@@ -1,0 +1,256 @@
+header {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../images/background001.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.toptext {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 8rem;
+}
+
+.toptext .TOPtext01 {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.toptext .TOPtext01 h2:nth-child(1) {
+  font-size: 2.5rem;
+}
+
+.toptext .TOPtext01 h2:nth-child(2) {
+  font-size: 3rem;
+  color: rgb(230, 102, 102);
+}
+
+.toptext p {
+  width: 500px;
+  font-size: 12px;
+  line-height: 2;
+  margin-top: 2rem;
+}
+
+.toptext .sen {
+  width: 5rem;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFF3FF;
+  margin-bottom: 4rem;
+}
+
+main h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 4rem auto 2rem auto;
+  border-bottom: 3px solid red;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.pro #women300 img {
+  width: 300px;
+}
+
+#women {
+  position: absolute;
+  top: 35px;
+  left: 255px;
+  background-color: #ffffff;
+  padding: 5px 5px;
+  font-weight: bold;
+}
+
+.pro {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border: 3px solid black;
+  gap: 1rem;
+  position: relative;
+  background-color: #e6fffa;
+}
+
+#PROFILECARD h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#STRATEGY .STRATEGY00 {
+  display: flex;
+  gap: 1rem;
+}
+
+#STRATEGY .STRATEGY00 .STRATEGY {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6fffa;
+  width: 33.3333333333%;
+  border: 3px solid black;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#STRATEGY .STRATEGY00 .STRATEGY p img {
+  width: 100%;
+}
+
+#STRATEGY h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.BROKEN {
+  display: flex;
+  height: 500px;
+  border: 3px solid black;
+  padding: 1rem;
+  background-color: #e6fffa;
+}
+
+.BROKEN img {
+  max-width: 300px;
+  width: 25%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.BROKEN img:nth-child(1) {
+  align-self: flex-start;
+}
+
+.BROKEN img:nth-child(3) {
+  align-self: flex-end;
+}
+
+.BROKEN p {
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: #FFF3FF;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-self: center;
+  margin-left: 1rem;
+}
+
+.REVERDECARD {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.REVERDECARD img {
+  max-width: 300px;
+}
+
+.REV {
+  display: flex;
+  border: 3px solid black;
+  background-color: #e6fffa;
+}
+
+.REV:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.REVER {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+.REVERDEC {
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.REV .REVER .REVERDEC h3:nth-child(1) {
+  font-size: 3rem;
+}
+
+.REV .REVER .REVERDEC h3:nth-child(2) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.REV .REVER .buttan {
+  width: 200px;
+  text-align: center;
+  background-color: #D24E5F;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px 1px black;
+  margin-bottom: 20px;
+}
+
+.REV .REVER .buttan02 {
+  width: 200px;
+  text-align: center;
+  background-color: #62BAAC;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px 1px black;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+footer {
+  background-image: linear-gradient(to left top, #cd3796, #d644a0, #e04fab, #e95bb5, #f266c0, #f373c7, #f37fce, #f48bd5, #ec9ad8, #e4a7da, #deb4da, #d8bfd8);
+  color: white;
+}
+
+.foot {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.foot ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-right: 3px solid #ffffff;
+  padding-right: 3rem;
+}
+
+.foot p {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+footer p {
+  text-align: center;
+  padding: 2rem;
+}/*# sourceMappingURL=style.css.map */
